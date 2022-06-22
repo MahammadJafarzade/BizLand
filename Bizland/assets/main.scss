@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.socialinfo{
+    background-color: blue;
+    height: 40px;
+    padding-top: 5px;
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.social{
+    color: white;
+    a{
+        color: white;
+    }
+    i{
+        padding-left: 10px; 
+}
+    }
+    #number{
+    text-decoration: none;
+}
+.info{
+    i{
+        padding-left: 5px;
+        color: rgb(185, 181, 181);
+        &:hover{
+            color: white;
+            transition: 0.5s;
+        }
+    }
+
+}
+@media screen and (max-width:768px) {
+    .d-flex{
+      justify-content: center;
+    }
+    .info{
+        display: none;
+    }
+    
+}
+
+.welcome{
+    opacity: 0.8;
+    background:url("../assets/Img/hero-bg.jpg");
+    width: 100%;
+    height: 600px;
+}
+.summary{ 
+    padding-top: 180px;
+    h2{
+    font-size: 48px;
+    font-weight: 700;
+    }
+    span{
+        color: blue;
+        font-size: 48px;
+        font-weight: 600;
+    }
+    h3{
+        font-size: 25px;
+        color: rgb(122, 117, 117);
+    }
+}
+.btn{
+    padding-top: 15px;
+    a{
+    background-color: blue;
+    color: white;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 7px;
+    text-decoration: none;
+    &:hover{
+        background-color: aqua;
+        transition: 1s;
+    }
+}
+}
+.player{ 
+    display:flex;
+    
+    a{
+      text-decoration: none; 
+  &:hover{
+            color: red;
+            transition: 1s;
+        }
+    i{
+        padding-top: 15px;
+        font-size: 30px;         
+    }
+    span{
+        color: black;
+        font-size: 20px;
+    }
+}
+}
+#about{
+    height: 20vh;
+}
+.aboutus{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    h2{
+        
+        width: 100px;
+        border-radius: 5px;
+        background-color: rgb(102, 197, 200);
+    }
+   
+   
+}
