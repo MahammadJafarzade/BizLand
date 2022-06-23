@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+
 .social{
     color: white;
     a{
@@ -277,9 +279,7 @@
     }
 }
 @media screen and (max-width:992px) {
-    body{
-        width: 1100px;
-    }
+   
     .bizfooter{
         display: block;
     }
