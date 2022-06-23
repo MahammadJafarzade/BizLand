@@ -212,11 +212,12 @@
 .btn{
     display: flex;
     background: blue;
+    color: white;
     padding: 10px;
-    &:hover{
-        background-color: blueviolet;
-    }
-}
+//     &:hover{
+//         background-color: blueviolet;
+//     }
+ }
 .bizfooter{
     display: flex;
     justify-content: space-between;
